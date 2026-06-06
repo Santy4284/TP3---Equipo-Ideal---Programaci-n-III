@@ -1,0 +1,242 @@
+[
+  {
+    "dni": "PL1001",
+    "Nombre": "Bill",
+    "Apellido": "Gates",
+    "Rol": "Lider",
+    "Puntaje": 4,
+    "Foto": "src/tp/dal/images/gates.png"
+  },
+  {
+    "dni": "PL1002",
+    "Nombre": "Steve",
+    "Apellido": "Jobs",
+    "Rol": "Lider",
+    "Puntaje": 3,
+    "Foto":"src/tp/dal/images/jobs.png"
+  },
+  {
+    "dni": "PL1003",
+    "Nombre": "Linus",
+    "Apellido": "Torvalds",
+    "Rol": "Lider",
+    "Puntaje": 5,
+    "Foto":"src/tp/dal/images/torvalds.png"
+  },
+  {
+    "dni": "A1004",
+    "Nombre": "Alan",
+    "Apellido": "Turing",
+    "Rol": "Arquitecto",
+    "Puntaje": 3,
+    "Foto":"src/tp/dal/images/turing.png"
+  },
+  {
+    "dni": "A1005",
+    "Nombre": "Mark",
+    "Apellido": "Zuckerberg",
+    "Rol": "Arquitecto",
+    "Puntaje": 2,
+    "Foto":"src/tp/dal/images/zuckerberg.png"
+  },
+  {
+    "dni": "A1006",
+    "Nombre": "Sergey",
+    "Apellido": "Brin",
+    "Rol": "Arquitecto",
+    "Puntaje": 4,
+    "Foto":"src/tp/dal/images/brin.png"
+  },
+  {
+    "dni": "A1007",
+    "Nombre": "Jeff",
+    "Apellido": "Bezos",
+    "Rol": "Arquitecto",
+    "Puntaje": 2,
+    "Foto":"src/tp/dal/images/bezos.png"
+  },
+  {
+    "dni": "A1008",
+    "Nombre": "Elon",
+    "Apellido": "Musk",
+    "Rol": "Arquitecto",
+    "Puntaje": 4,
+    "Foto":"src/tp/dal/images/musk.png"
+  },
+  {
+    "dni": "A1009",
+    "Nombre": "Satya",
+    "Apellido": "Nadella",
+    "Rol": "Arquitecto",
+    "Puntaje": 5,
+    "Foto":"src/tp/dal/images/nadella.png"
+  },  
+  {
+    "dni": "T1010",
+    "Nombre": "Garry",
+    "Apellido": "Kasparov",
+    "Rol": "Tester",
+    "Puntaje": 4,
+    "Foto":"src/tp/dal/images/kasparov.png"
+  },
+  {
+    "dni": "T1011",
+    "Nombre": "Anatoly",
+    "Apellido": "Karpov",
+    "Rol": "Tester",
+    "Puntaje": 3,
+    "Foto":"src/tp/dal/images/karpov.png"
+  },
+  {
+    "dni": "T1012",
+    "Nombre": "Bobby",
+    "Apellido": "Fischer",
+    "Rol": "Tester",
+    "Puntaje": 4,
+    "Foto":"src/tp/dal/images/fischer.png"
+  },
+  {
+    "dni": "T1013",
+    "Nombre": "Magnus",
+    "Apellido": "Carlsen",
+    "Rol": "Tester",
+    "Puntaje": 3,
+    "Foto":"src/tp/dal/images/carlsen.png"
+  },
+  {
+    "dni": "T1014",
+    "Nombre": "Viswanathan",
+    "Apellido": "Anand",
+    "Rol": "Tester",
+    "Puntaje": 4,
+    "Foto":"src/tp/dal/images/anand.png"
+  },
+  {
+    "dni": "T1015",
+    "Nombre": "Vladimir",
+    "Apellido": "Kramnik",
+    "Rol": "Tester",
+    "Puntaje": 3,
+    "Foto":"src/tp/dal/images/kamnik.png"
+  },
+  {
+    "dni": "T1016",
+    "Nombre": "Jose Raul",
+    "Apellido": "Capablanca",
+    "Rol": "Tester",
+    "Puntaje": 3,
+    "Foto":"src/tp/dal/images/capablanca.png"
+  },
+  {
+    "dni": "T1017",
+    "Nombre": "Alexander",
+    "Apellido": "Alekhine",
+    "Rol": "Tester",
+    "Puntaje": 4,
+    "Foto":"src/tp/dal/images/alekhine.png"
+  },
+  {
+    "dni": "T1018",
+    "Nombre": "Boris",
+    "Apellido": "Spassky",
+    "Rol": "Tester",
+    "Puntaje": 3,
+    "Foto":"src/tp/dal/images/spassky.png"
+  },
+{
+  "dni": "T1019",
+  "Nombre": "Vassily",
+  "Apellido": "Ivanchuk",
+  "Rol": "Tester",
+  "Puntaje": 3,
+  "Foto":"src/tp/dal/images/ivanchuk.png"
+},
+{
+  "dni": "P1020",
+  "Nombre": "Mikhail",
+  "Apellido": "Botwinnik",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "Foto":"src/tp/dal/images/botvinnik.png"
+},
+{
+  "dni": "P1021",
+  "Nombre": "Hiraku",
+  "Apellido": "Nakamura",
+  "Rol": "Programador",
+  "Puntaje": 2,
+  "Foto":"src/tp/dal/images/nakamura.png"
+},
+{
+  "dni": "P1022",
+  "Nombre": "Anatoly",
+  "Apellido": "Lein",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "Foto":"src/tp/dal/images/lein.png"
+},
+{
+  "dni": "P1023",
+  "Nombre": "Nigel",
+  "Apellido": "Short",
+  "Rol": "Programador",
+  "Puntaje": 3,
+  "Foto":"src/tp/dal/images/short.png"
+},
+{
+  "dni": "P1024",
+  "Nombre": "Viktor",
+  "Apellido": "Korchnoi",
+  "Rol": "Programador",
+  "Puntaje": 3,
+  "//Foto":"src/tp/dal/images/korchnoi.png"
+},
+{
+  "dni": "P1025",
+  "Nombre": "Fabiano",
+  "Apellido": "Caruana",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "//Foto":"src/tp/dal/images/caruana.png"
+},
+{
+  "dni": "P1026",
+  "Nombre": "Judith",
+  "Apellido": "Polgar",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "//Foto":"src/tp/dal/images/polgar.png"
+},
+{
+  "dni": "P1027",
+  "Nombre": "Alexander",
+  "Apellido": "Grischuk",
+  "Rol": "Programador",
+  "Puntaje": 3,
+  "//Foto":"src/tp/dal/images/grischuk.png"
+},
+{
+  "dni": "P1028",
+  "Nombre": "Shakhiyar",
+  "Apellido": "Mamedyarov",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "//Foto":"src/tp/dal/images/mamedyarov.png"
+},
+{
+  "dni": "P1029",
+  "Nombre": "David",
+  "Apellido": "Bronstein",
+  "Rol": "Programador",
+  "Puntaje": 3,
+  "Foto":"src/tp/dal/images/bronstein.png"
+},
+{
+  "dni": "P1030",
+  "Nombre": "Alexei",
+  "Apellido": "Shirov",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "Foto":"src/tp/dal/images/shirov.png"
+}
+]
