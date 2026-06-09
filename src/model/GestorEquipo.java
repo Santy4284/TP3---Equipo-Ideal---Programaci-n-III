@@ -12,9 +12,8 @@ public class GestorEquipo {
     private List<IObservadorEquipo> observadores;
 
     public static synchronized GestorEquipo getInstancia() {
-        if (instancia == null) {
+        if (instancia == null)
             instancia = new GestorEquipo();
-        }
         return instancia;
     }
 
@@ -25,47 +24,39 @@ public class GestorEquipo {
 
     // ── Generación de equipos ──────────────────────────────────────────────────
 
-    public List<Empleado> generarEquipoPorFuerzaBruta(int lideres, int arquitectos,
-                                                       int programadores, int testers) {
+    public List<Empleado> generarEquipoPorFuerzaBruta(int lideres, int arquitectos, int programadores, int testers) {
         FuerzaBruta fb = new FuerzaBruta(empleados, lideres, arquitectos, programadores, testers);
         List<Empleado> resultado = fb.encontrarMejorCombinacion();
         notificarEquipoGenerado(resultado, fb.getCantidadCombinaciones(), fb.getTiempoEjecucion());
         return resultado;
     }
 
-    public List<Empleado> generarEquipoPorRetroceso(int lideres, int arquitectos,
-                                                     int programadores, int testers) {
+    public List<Empleado> generarEquipoPorRetroceso(int lideres, int arquitectos, int programadores, int testers) {
     	BackTracking rp = new BackTracking(empleados, lideres, arquitectos, programadores, testers);
         List<Empleado> resultado = rp.encontrarMejorCombinacion();
         notificarEquipoGenerado(resultado, rp.getCantidadCombinaciones(), rp.getTiempoEjecucion());
         return resultado;
     }
 
-    public List<Empleado> generarEquipoPorHeuristica(int lideres, int arquitectos,
-                                                      int programadores, int testers) {
-        Heuristica h = new Heuristica(empleados, lideres, arquitectos, programadores, testers,
-                construirComparadorPorCoeficiente());
+    public List<Empleado> generarEquipoPorHeuristica(int lideres, int arquitectos, int programadores, int testers) {
+        Heuristica h = new Heuristica(empleados, lideres, arquitectos, programadores, testers, construirComparadorPorCoeficiente());
         List<Empleado> resultado = h.encontrarMejorCombinacion();
         notificarEquipoGenerado(resultado, h.getCantidadCombinaciones(), h.getTiempoEjecucion());
         return resultado;
     }
 
-    public HashMap<String, Object[]> generarComparativa(int lideres, int arquitectos,
-                                                         int programadores, int testers) {
+    public HashMap<String, Object[]> generarComparativa(int lideres, int arquitectos, int programadores, int testers) {
         HashMap<String, Object[]> mapa = new HashMap<>();
         Comparator<Empleado> comp = construirComparadorPorCoeficiente();
 
         FuerzaBruta fb = new FuerzaBruta(empleados, lideres, arquitectos, programadores, testers);
-        mapa.put("Fuerza Bruta", new Object[]{ fb.encontrarMejorCombinacion(),
-                fb.getCantidadCombinaciones(), fb.getTiempoEjecucion(), fb.getMejorPuntajePromedio() });
+        mapa.put("Fuerza Bruta", new Object[]{ fb.encontrarMejorCombinacion(), fb.getCantidadCombinaciones(), fb.getTiempoEjecucion(), fb.getMejorPuntajePromedio() });
 
         BackTracking rp = new BackTracking(empleados, lideres, arquitectos, programadores, testers);
-        mapa.put("Retroceso Progresivo", new Object[]{ rp.encontrarMejorCombinacion(),
-                rp.getCantidadCombinaciones(), rp.getTiempoEjecucion(), rp.getMejorPuntajePromedio() });
+        mapa.put("Retroceso Progresivo", new Object[]{ rp.encontrarMejorCombinacion(), rp.getCantidadCombinaciones(), rp.getTiempoEjecucion(), rp.getMejorPuntajePromedio() });
 
         Heuristica h = new Heuristica(empleados, lideres, arquitectos, programadores, testers, comp);
-        mapa.put("Heuristica", new Object[]{ h.encontrarMejorCombinacion(),
-                h.getCantidadCombinaciones(), h.getTiempoEjecucion(), h.getMejorPuntajePromedio() });
+        mapa.put("Heuristica", new Object[]{ h.encontrarMejorCombinacion(), h.getCantidadCombinaciones(), h.getTiempoEjecucion(), h.getMejorPuntajePromedio() });
 
         notificarComparativaGenerada(mapa);
         return mapa;

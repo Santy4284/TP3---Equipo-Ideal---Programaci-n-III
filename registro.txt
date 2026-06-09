@@ -18,3 +18,369 @@ Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Test
 Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
 
 -------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-01-57
+Equipo generado: 3 programadors, 4 testers, 2 arquitectos, 1 liders
+Combinaciones evaluadas: 1.1610644E7
+Tiempo de proceso: 373ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Garry', apellido='Kasparov', puntaje=4, rol=Tester}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='T1017', nombre='Alexander', apellido='Alekhine', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+Empleado{legajo='P1030', nombre='Alexei', apellido='Shirov', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-02-47
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Elon', apellido='Musk', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1027', nombre='Alexander', apellido='Grischuk', puntaje=3, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-02-53
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 5522460.0
+Tiempo de proceso: 249ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-03-03
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 5522460.0
+Tiempo de proceso: 145ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-03-21
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Elon', apellido='Musk', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1027', nombre='Alexander', apellido='Grischuk', puntaje=3, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-03-24
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Elon', apellido='Musk', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1027', nombre='Alexander', apellido='Grischuk', puntaje=3, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-03-25
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 5522460.0
+Tiempo de proceso: 264ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-03-25
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 5522460.0
+Tiempo de proceso: 262ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-03-30
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Elon', apellido='Musk', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1027', nombre='Alexander', apellido='Grischuk', puntaje=3, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-03-30
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Elon', apellido='Musk', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1027', nombre='Alexander', apellido='Grischuk', puntaje=3, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-03-57
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 1.073741824E9
+Tiempo de proceso: 62408ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-03-57
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 1.073741824E9
+Tiempo de proceso: 61120ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-04-50
+Equipo generado: 2 liders, 2 testers, 3 arquitectos, 4 programadors
+Combinaciones evaluadas: 1.073741824E9
+Tiempo de proceso: 78814ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1004', nombre='Alan', apellido='Turing', puntaje=3, rol=Arquitecto}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1024', nombre='Viktor', apellido='Korchnoi', puntaje=3, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-05-43
+Equipo generado: 1 arquitectos, 1 programadors, 1 liders, 1 testers
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Torvalds_2026-06-08_20-05-46
+Equipo generado: 1 arquitectos, 1 programadors, 1 liders, 1 testers
+Combinaciones evaluadas: 21805.0
+Tiempo de proceso: 4ms
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Garry', apellido='Kasparov', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-07-30
+Equipo generado: 2 testers, 2 programadors, 2 liders, 2 arquitectos
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Elon', apellido='Musk', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-08-10
+Equipo generado: 2 testers, 2 programadors, 2 liders, 2 arquitectos
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Elon', apellido='Musk', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_20-08-21
+Equipo generado: 2 testers, 2 programadors, 2 liders, 2 arquitectos
+Combinaciones evaluadas: 1.073741824E9
+Tiempo de proceso: 39740ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Garry', apellido='Kasparov', puntaje=4, rol=Tester}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Torvalds_2026-06-08_22-45-58
+Equipo generado: 2 arquitectos, 2 testers, 1 liders, 3 programadors
+Combinaciones evaluadas: 1.073741824E9
+Tiempo de proceso: 39210ms
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Torvalds_2026-06-08_22-46-17
+Equipo generado: 2 arquitectos, 2 testers, 1 liders, 3 programadors
+Combinaciones evaluadas: 1755026.0
+Tiempo de proceso: 69ms
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Torvalds_2026-06-08_22-47-16
+Equipo generado: 2 arquitectos, 2 testers, 1 liders, 3 programadors
+Combinaciones evaluadas: 1755026.0
+Tiempo de proceso: 75ms
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Torvalds_2026-06-08_22-47-17
+Equipo generado: 2 arquitectos, 2 testers, 1 liders, 3 programadors
+Combinaciones evaluadas: 1.073741824E9
+Tiempo de proceso: 38776ms
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Torvalds_2026-06-08_22-47-29
+Equipo generado: 2 arquitectos, 2 testers, 1 liders, 3 programadors
+Combinaciones evaluadas: 1755026.0
+Tiempo de proceso: 43ms
+Empleado{legajo='PL1003', nombre='Linus', apellido='Torvalds', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Sergey', apellido='Brin', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1025', nombre='Fabiano', apellido='Caruana', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Gates_2026-06-08_22-47-33
+Equipo generado: 2 arquitectos, 2 testers, 1 liders, 3 programadors
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Bill', apellido='Gates', puntaje=4, rol=Lider}
+Empleado{legajo='A1009', nombre='Satya', apellido='Nadella', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Bobby', apellido='Fischer', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Viswanathan', apellido='Anand', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Judith', apellido='Polgar', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Elon', apellido='Musk', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Anatoly', apellido='Lein', puntaje=4, rol=Programador}
+Empleado{legajo='P1030', nombre='Alexei', apellido='Shirov', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------

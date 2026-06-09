@@ -15,8 +15,7 @@ public abstract class Algoritmo {
     protected double cantidadCombinaciones;
     protected long tiempoEjecucion;
 
-    public Algoritmo(List<Empleado> empleados, int cantidadLideres, int cantidadArquitectos,
-                     int cantidadProgramadores, int cantidadTesters) {
+    public Algoritmo(List<Empleado> empleados, int cantidadLideres, int cantidadArquitectos, int cantidadProgramadores, int cantidadTesters) {
         this.empleados = empleados;
         this.cantidadLideres = cantidadLideres;
         this.cantidadArquitectos = cantidadArquitectos;
@@ -50,20 +49,16 @@ public abstract class Algoritmo {
     }
 
     public boolean tieneEmpleadosEnConflicto(List<Empleado> combinacion) {
-        for (Empleado empleado : combinacion) {
-            if (combinacionContieneConflicto(combinacion, empleado)) {
+        for (Empleado empleado : combinacion)
+            if (combinacionContieneConflicto(combinacion, empleado))
                 return true;
-            }
-        }
         return false;
     }
 
     public boolean combinacionContieneConflicto(List<Empleado> combinacion, Empleado empleado) {
-        for (Empleado e : combinacion) {
-            if (e.getConflictos().contains(empleado.getLegajo())) {
+        for (Empleado e : combinacion)
+            if (e.getConflictos().contains(empleado.getLegajo()))
                 return true;
-            }
-        }
         return false;
     }
 
@@ -85,14 +80,24 @@ public abstract class Algoritmo {
 
     protected double calcularPuntajePromedio(List<Empleado> combinacion) {
         int total = 0;
-        for (Empleado e : combinacion) {
+        for (Empleado e : combinacion)
             total += e.getPuntaje();
-        }
         return (double) total / combinacion.size();
     }
 
-    public double getMejorPuntajePromedio() { return mejorPuntajePromedio; }
-    public double getCantidadCombinaciones() { return cantidadCombinaciones; }
-    public long getTiempoEjecucion() { return tiempoEjecucion; }
-    public List<Empleado> getMejorCombinacion() { return mejorCombinacion; }
+    public double getMejorPuntajePromedio() { 
+    	return mejorPuntajePromedio; 
+    }
+    
+    public double getCantidadCombinaciones() { 
+    	return cantidadCombinaciones; 
+    }
+    
+    public long getTiempoEjecucion() {
+    	return tiempoEjecucion; 
+    }
+    
+    public List<Empleado> getMejorCombinacion() {
+    	return mejorCombinacion;
+    }
 }

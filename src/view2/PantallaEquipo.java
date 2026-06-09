@@ -37,13 +37,14 @@ public class PantallaEquipo {
 
     private void initialize() {
         frame = new JFrame("Programacion III - Constructor de Equipo");
-        frame.setBounds(100, 100, 900, 818);
+        frame.getContentPane().setBackground(new Color(0, 204, 255));
+        frame.setBounds(100, 100, 900, 820);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
 
-        Icon fondoIcon = new ImageIcon("src/dal/imagenes/fondo2.png");
+        Icon fondoIcon = new ImageIcon("/src/imagenes/fondo.jpg");
         JLabel fondoLabel = new JLabel(fondoIcon);
-        fondoLabel.setBounds(0, 0, 1000, 1000);
+        fondoLabel.setBounds(0, 0, 800, 800);
 
         // ── Sección: Datos de nuevo empleado ──────────────────────────────────
         JLabel lblNuevoEmp = crearEtiqueta("DATOS DEL NUEVO EMPLEADO", 18, 70, 11, 300, 45);
@@ -183,7 +184,7 @@ public class PantallaEquipo {
 
     private JLabel crearEtiqueta(String texto, int tamaño, int x, int y, int ancho, int alto) {
         JLabel lbl = new JLabel(texto);
-        lbl.setForeground(Color.WHITE);
+        lbl.setForeground(Color.BLACK);
         lbl.setFont(new Font("Tahoma", Font.BOLD, tamaño));
         lbl.setBounds(x, y, ancho, alto);
         return lbl;

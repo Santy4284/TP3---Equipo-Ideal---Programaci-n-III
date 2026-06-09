@@ -5,13 +5,12 @@ import java.util.List;
 
 public class BackTracking extends Algoritmo {
 
-    public BackTracking(List<Empleado> empleados, int cantidadLideres, int cantidadArquitectos,
-                               int cantidadProgramadores, int cantidadTesters) {
+    public BackTracking(List<Empleado> empleados, int cantidadLideres, int cantidadArquitectos, int cantidadProgramadores, int cantidadTesters) {
         super(empleados, cantidadLideres, cantidadArquitectos, cantidadProgramadores, cantidadTesters);
     }
 
     @Override
-    protected void generarCombinacion(List<Empleado> combinacion, int indiceActual) {
+    public void generarCombinacion(List<Empleado> combinacion, int indiceActual) {
         if (indiceActual == empleados.size()) {
             if (esCombinacionValida(combinacion)) {
                 double promedio = calcularPuntajePromedio(combinacion);
@@ -24,8 +23,7 @@ public class BackTracking extends Algoritmo {
         }
 
         Empleado actual = empleados.get(indiceActual);
-        if (!combinacionContieneConflicto(combinacion, actual)
-                && !rolSuperaLimite(combinacion, actual.getRol())) {
+        if (!combinacionContieneConflicto(combinacion, actual) && !rolSuperaLimite(combinacion, actual.getRol())) {
             combinacion.add(actual);
             cantidadCombinaciones++;
             generarCombinacion(combinacion, indiceActual + 1);
@@ -37,9 +35,9 @@ public class BackTracking extends Algoritmo {
 
     private boolean rolSuperaLimite(List<Empleado> combinacion, Empleado.Rol rol) {
         int conteo = 0;
-        for (Empleado e : combinacion) {
+        for (Empleado e : combinacion)
             if (e.getRol() == rol) conteo++;
-        }
+
         switch (rol) {
             case Lider:       return conteo >= cantidadLideres;
             case Arquitecto:  return conteo >= cantidadArquitectos;

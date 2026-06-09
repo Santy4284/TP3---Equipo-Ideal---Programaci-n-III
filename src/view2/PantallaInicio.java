@@ -24,15 +24,17 @@ public class PantallaInicio {
 
     private void initialize() {
         frame = new JFrame("Programacion III - Equipo Ideal");
+        frame.getContentPane().setBackground(new Color(0, 204, 255));
         frame.setBounds(100, 100, 505, 350);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
 
-        Icon fondoIcon = new ImageIcon("src/dal/imagenes/fondo1.png");
+     
+        Icon fondoIcon = new ImageIcon("/src/imagenes/fondo.jpg");
         JLabel fondoLabel = new JLabel(fondoIcon);
-        fondoLabel.setBounds(0, 0, 600, 400);
+        fondoLabel.setBounds(0, 0, 400, 600);
 
-        JLabel lblTitulo = crearEtiqueta("CONFIGURACIÓN DEL EQUIPO REQUERIDO", 20, 53, 39, 411, 50);
+        JLabel lblTitulo = crearEtiqueta("CONFIGURACIÓN DEL EQUIPO", 20, 53, 39, 411, 50);
         JLabel lblLideres = crearEtiqueta("Lideres de Proyecto", 14, 53, 103, 200, 20);
         JLabel lblArqs = crearEtiqueta("Arquitectos", 14, 53, 134, 200, 20);
         JLabel lblProg = crearEtiqueta("Programadores", 14, 53, 165, 200, 20);
@@ -44,7 +46,7 @@ public class PantallaInicio {
         txtTesters      = crearCampoNumerico(313, 196);
 
         JButton btnContinuar = new JButton("ARMAR EQUIPO");
-        btnContinuar.setFont(new Font("Tahoma", Font.BOLD, 12));
+        btnContinuar.setFont(new Font("Tahoma", Font.BOLD, 11));
         btnContinuar.setBounds(165, 260, 170, 30);
         btnContinuar.addActionListener(e -> {
             if (presenter != null) presenter.onContinuarPulsado();
@@ -78,8 +80,8 @@ public class PantallaInicio {
 
     private JLabel crearEtiqueta(String texto, int tamaño, int x, int y, int ancho, int alto) {
         JLabel lbl = new JLabel(texto);
-        lbl.setForeground(Color.WHITE);
-        lbl.setFont(new Font("Tahoma", Font.BOLD, tamaño));
+        lbl.setForeground(Color.BLACK);
+        lbl.setFont(new Font("Tahoma", Font.BOLD, 20));
         lbl.setBounds(x, y, ancho, alto);
         return lbl;
     }

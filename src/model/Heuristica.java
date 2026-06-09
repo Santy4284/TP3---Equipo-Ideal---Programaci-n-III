@@ -13,8 +13,7 @@ public class Heuristica extends Algoritmo {
     private Comparator<Empleado> comparador;
     private List<Empleado> equipoFinal;
 
-    public Heuristica(List<Empleado> empleados, int cantidadLideres, int cantidadArquitectos,
-                      int cantidadProgramadores, int cantidadTesters, Comparator<Empleado> comparador) {
+    public Heuristica(List<Empleado> empleados, int cantidadLideres, int cantidadArquitectos, int cantidadProgramadores, int cantidadTesters, Comparator<Empleado> comparador) {
         super(empleados, cantidadLideres, cantidadArquitectos, cantidadProgramadores, cantidadTesters);
         this.lideresAgregados = 0;
         this.arquitectosAgregados = 0;
@@ -38,12 +37,11 @@ public class Heuristica extends Algoritmo {
 
     @Override
     protected void generarCombinacion(List<Empleado> candidatos, int indiceActual) {
-        for (Empleado empleado : candidatos) {
+        for (Empleado empleado : candidatos)
             if (rolDisponible(empleado) && !hayConflictoConEquipo(equipoFinal, empleado)) {
                 incrementarConteoRol(empleado.getRol());
                 equipoFinal.add(empleado);
             }
-        }
         cantidadCombinaciones++;
     }
 
@@ -67,11 +65,9 @@ public class Heuristica extends Algoritmo {
     }
 
     public boolean hayConflictoConEquipo(List<Empleado> equipo, Empleado candidato) {
-        for (Empleado e : equipo) {
-            if (e.getConflictos().contains(candidato.getLegajo())) {
+        for (Empleado e : equipo)
+            if (e.getConflictos().contains(candidato.getLegajo()))
                 return true;
-            }
-        }
         return false;
     }
 }

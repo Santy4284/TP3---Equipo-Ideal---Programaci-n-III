@@ -10,7 +10,7 @@ public class FuerzaBruta extends Algoritmo {
     }
 
     @Override
-    protected void generarCombinacion(List<Empleado> combinacion, int indiceActual) {
+    public void generarCombinacion(List<Empleado> combinacion, int indiceActual) {
         if (indiceActual == empleados.size()) {
             cantidadCombinaciones++;
             evaluarCombinacion(combinacion);
