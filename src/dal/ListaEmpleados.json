@@ -1,0 +1,242 @@
+[
+  {
+    "dni": "PL1001",
+    "Nombre": "Lionel",
+    "Apellido": "Messi",
+    "Rol": "Lider",
+    "Puntaje": 4,
+    "Foto": "agregar"
+  },
+  {
+    "dni": "PL1002",
+    "Nombre": "Cristiano",
+    "Apellido": "Ronaldo",
+    "Rol": "Lider",
+    "Puntaje": 3,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "PL1003",
+    "Nombre": "Kylian",
+    "Apellido": "Mbappe",
+    "Rol": "Lider",
+    "Puntaje": 5,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "A1004",
+    "Nombre": "Julian",
+    "Apellido": "Alvarez",
+    "Rol": "Arquitecto",
+    "Puntaje": 3,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "A1005",
+    "Nombre": "Erling",
+    "Apellido": "Haaland",
+    "Rol": "Arquitecto",
+    "Puntaje": 2,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "A1006",
+    "Nombre": "Vinicius",
+    "Apellido": "Junior",
+    "Rol": "Arquitecto",
+    "Puntaje": 4,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "A1007",
+    "Nombre": "Jude",
+    "Apellido": "Bellingham",
+    "Rol": "Arquitecto",
+    "Puntaje": 2,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "A1008",
+    "Nombre": "Kevin",
+    "Apellido": "De Bruyne",
+    "Rol": "Arquitecto",
+    "Puntaje": 4,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "A1009",
+    "Nombre": "Lautaro",
+    "Apellido": "Martinez",
+    "Rol": "Arquitecto",
+    "Puntaje": 5,
+    "Foto":"agregar"
+  },  
+  {
+    "dni": "T1010",
+    "Nombre": "Neymar",
+    "Apellido": "Junior",
+    "Rol": "Tester",
+    "Puntaje": 4,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "T1011",
+    "Nombre": "Robert",
+    "Apellido": "Lewandowski",
+    "Rol": "Tester",
+    "Puntaje": 3,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "T1012",
+    "Nombre": "Mohamed",
+    "Apellido": "Salah",
+    "Rol": "Tester",
+    "Puntaje": 4,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "T1013",
+    "Nombre": "Harry",
+    "Apellido": "Kane",
+    "Rol": "Tester",
+    "Puntaje": 3,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "T1014",
+    "Nombre": "Antoine",
+    "Apellido": "Griezmann",
+    "Rol": "Tester",
+    "Puntaje": 4,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "T1015",
+    "Nombre": "Luka",
+    "Apellido": "Modric",
+    "Rol": "Tester",
+    "Puntaje": 3,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "T1016",
+    "Nombre": "Toni",
+    "Apellido": "Kroos",
+    "Rol": "Tester",
+    "Puntaje": 3,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "T1017",
+    "Nombre": "Pedri",
+    "Apellido": "Gonzalez",
+    "Rol": "Tester",
+    "Puntaje": 4,
+    "Foto":"agregar"
+  },
+  {
+    "dni": "T1018",
+    "Nombre": "Rodri",
+    "Apellido": "Hernandez",
+    "Rol": "Tester",
+    "Puntaje": 3,
+    "Foto":"agregar"
+  },
+{
+  "dni": "T1019",
+  "Nombre": "Federico",
+  "Apellido": "Valverde",
+  "Rol": "Tester",
+  "Puntaje": 3,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1020",
+  "Nombre": "Alexis",
+  "Apellido": "Mac Allister",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1021",
+  "Nombre": "Enzo",
+  "Apellido": "Fernandez",
+  "Rol": "Programador",
+  "Puntaje": 2,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1022",
+  "Nombre": "Paulo",
+  "Apellido": "Dybala",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1023",
+  "Nombre": "Angel",
+  "Apellido": "Di Maria",
+  "Rol": "Programador",
+  "Puntaje": 3,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1024",
+  "Nombre": "Emiliano",
+  "Apellido": "Martinez",
+  "Rol": "Programador",
+  "Puntaje": 3,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1025",
+  "Nombre": "Thiago",
+  "Apellido": "Almada",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1026",
+  "Nombre": "Giuliano",
+  "Apellido": "Simeone",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1027",
+  "Nombre": "Cole",
+  "Apellido": "Palmer",
+  "Rol": "Programador",
+  "Puntaje": 3,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1028",
+  "Nombre": "Lamine",
+  "Apellido": "Yamal",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1029",
+  "Nombre": "Bukayo",
+  "Apellido": "Saka",
+  "Rol": "Programador",
+  "Puntaje": 3,
+  "Foto":"agregar"
+},
+{
+  "dni": "P1030",
+  "Nombre": "Florian",
+  "Apellido": "Wirtz",
+  "Rol": "Programador",
+  "Puntaje": 4,
+  "Foto":"agregar"
+}
+]
