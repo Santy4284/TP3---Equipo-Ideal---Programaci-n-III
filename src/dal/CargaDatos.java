@@ -1,6 +1,5 @@
 package dal;
 
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -12,10 +11,7 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
-
 public class CargaDatos implements ICargaDatos {
-
-    // Rutas relativas al classpath (dentro de src/dal/)
     private final String archivoEmpleados  = "/dal/ListaEmpleados.json";
     private final String archivoConflictos = "/dal/ListaConflictos.json";
 
@@ -26,6 +22,8 @@ public class CargaDatos implements ICargaDatos {
         cargarConflictos(empleados, archivoConflictos);
         return empleados;
     }
+    
+    // ── Metodos Privados ──────────────────────────────────────────────────
 
     private List<Empleado> leerListaEmpleados(String ruta) {
         try {
@@ -35,12 +33,13 @@ public class CargaDatos implements ICargaDatos {
 
             for (int i = 0; i < array.length(); i++) {
                 JSONObject obj = array.getJSONObject(i);
-                String legajo   = obj.getString("dni");
-                String nombre   = obj.getString("Nombre");
+                String legajo = obj.getString("dni");
+                String nombre = obj.getString("Nombre");
                 String apellido = obj.getString("Apellido");
-                int puntaje     = obj.getInt("Puntaje");
-                Rol rol         = Rol.valueOf(obj.getString("Rol"));
-                String foto     = obj.optString("foto", "");
+                int puntaje = obj.getInt("Puntaje");
+                Rol rol = Rol.valueOf(obj.getString("Rol"));
+                String foto = obj.optString("foto", "");
+                
                 empleados.add(new Empleado(legajo, nombre, apellido, puntaje, new HashSet<>(), rol, foto));
             }
             return empleados;
@@ -51,6 +50,7 @@ public class CargaDatos implements ICargaDatos {
         }
     }
 
+   
     private void cargarConflictos(List<Empleado> empleados, String ruta) {
         try {
             String contenido = leerRecurso(ruta);
@@ -77,7 +77,9 @@ public class CargaDatos implements ICargaDatos {
             e.printStackTrace();
         }
     }
-
+    
+    
+    // ── Leer desde archivo JSON ──────────────────────────────────────────────────
     private String leerRecurso(String ruta) throws IOException {
         InputStream is = getClass().getResourceAsStream(ruta);
         if (is == null) throw new IOException("No se encontró el recurso: " + ruta);

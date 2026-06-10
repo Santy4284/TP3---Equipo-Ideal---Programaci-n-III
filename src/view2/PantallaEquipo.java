@@ -26,6 +26,7 @@ public class PantallaEquipo {
     private JLabel lblTiempo;
     private JLabel lblPromedio;
     private EquipoPresenter presenter;
+    private JProgressBar barra;
 
     public PantallaEquipo() {
         initialize();
@@ -72,41 +73,46 @@ public class PantallaEquipo {
         // ── Sección: Conflictos ───────────────────────────────────────────────
         JLabel lblConflictos = crearEtiqueta("CONFLICTOS", 18, 580, 11, 200, 45);
         comboConflicto1 = new JComboBox<>();
-        comboConflicto1.setBounds(466, 70, 175, 22);
+        comboConflicto1.setBounds(470, 70, 175, 22);
         comboConflicto2 = new JComboBox<>();
-        comboConflicto2.setBounds(680, 70, 175, 22);
+        comboConflicto2.setBounds(470, 105, 175, 25);
 
         JButton btnAgregarConflicto = new JButton("Agregar Conflicto");
-        btnAgregarConflicto.setBounds(570, 105, 148, 25);
+        btnAgregarConflicto.setBounds(680, 90, 160, 22);
         btnAgregarConflicto.addActionListener(e -> {
             if (presenter != null) presenter.onAgregarConflictoPulsado(
                     comboConflicto1.getSelectedIndex(), comboConflicto2.getSelectedIndex());
         });
 
         // ── Sección: Lista de empleados ────────────────────────────────────────
-        JLabel lblListaEmp = crearEtiqueta("LISTA DE EMPLEADOS", 14, 100, 319, 200, 29);
+        JLabel lblListaEmp = crearEtiqueta("LISTA DE EMPLEADOS", 14, 560, 160, 200, 22);
         comboListaEmpleados = new JComboBox<>();
-        comboListaEmpleados.setBounds(17, 350, 350, 22);
+        comboListaEmpleados.setBounds(493, 200, 335, 22);
 
-        JLabel lblListaConflictos = crearEtiqueta("LISTA DE CONFLICTOS", 14, 560, 321, 200, 22);
+        JLabel lblListaConflictos = crearEtiqueta("LISTA DE CONFLICTOS", 14, 560, 260, 200, 22);
         comboListaConflictos = new JComboBox<>();
-        comboListaConflictos.setBounds(493, 350, 335, 22);
+        comboListaConflictos.setBounds(493, 300, 335, 22);
 
         // ── Tabla resultados ───────────────────────────────────────────────────
-        JLabel lblTabla = crearEtiqueta("LISTA COMPLETA DE EMPLEADOS", 14, 340, 400, 300, 22);
+        JLabel lblTabla = crearEtiqueta("LISTA COMPLETA DE EMPLEADOS", 14, 140, 400, 300, 22);
         modeloTabla = new DefaultTableModel(new Object[]{"Legajo", "Nombre", "Apellido", "Puntaje", "Rol"}, 0);
         tablaEquipo = new JTable(modeloTabla);
         JScrollPane scroll = new JScrollPane(tablaEquipo);
         scroll.setBounds(17, 430, 855, 260);
 
         // ── Stats ──────────────────────────────────────────────────────────────
-        lblCombinaciones = crearEtiqueta("", 14, 284, 715, 452, 22);
+        lblCombinaciones = crearEtiqueta("", 14, 450, 400, 300, 22);
         lblCombinaciones.setHorizontalAlignment(SwingConstants.CENTER);
         lblTiempo = crearEtiqueta("", 14, 284, 735, 452, 22);
         lblTiempo.setHorizontalAlignment(SwingConstants.CENTER);
         lblPromedio = crearEtiqueta("", 14, 284, 755, 452, 22);
         lblPromedio.setHorizontalAlignment(SwingConstants.CENTER);
-
+        
+        // ── Barra de Progreso ──────────────────────────────────────────────────────────────
+        barra = new JProgressBar();
+        barra.setBounds(620, 700, 250, 40);
+        barra.setVisible(false);
+        
         // ── Botones de algoritmos ──────────────────────────────────────────────
         JButton btnFuerzaBruta = new JButton("Fuerza Bruta");
         btnFuerzaBruta.setBounds(17, 700, 130, 40);
@@ -134,7 +140,7 @@ public class PantallaEquipo {
                 lblTabla, scroll,
                 lblCombinaciones, lblTiempo, lblPromedio,
                 btnFuerzaBruta, btnRetroceso, btnHeuristica, btnComparativa,
-                fondoLabel
+                fondoLabel, barra
         }) {
             frame.getContentPane().add(c);
         }
@@ -142,6 +148,15 @@ public class PantallaEquipo {
 
     // ── Métodos de actualización de UI ─────────────────────────────────────────
 
+    public void mostrarBarra() {
+    	barra.setVisible(true);
+    	barra.setIndeterminate(true);
+    }
+    
+    public void ocultarBarra() {
+    	barra.setVisible(false);
+    }
+    
     public void agregarEmpleadoAlCombo(String descripcion) {
         comboListaEmpleados.addItem(descripcion);
         comboConflicto1.addItem(descripcion);

@@ -39,11 +39,16 @@ public class BackTracking extends Algoritmo {
             if (e.getRol() == rol) conteo++;
 
         switch (rol) {
-            case Lider:       return conteo >= cantidadLideres;
-            case Arquitecto:  return conteo >= cantidadArquitectos;
-            case Programador: return conteo >= cantidadProgramadores;
-            case Tester:      return conteo >= cantidadTesters;
-            default:          return false;
+            case Lider:
+            	return conteo >= cantidadLideres;
+            case Arquitecto:
+            	return conteo >= cantidadArquitectos;
+            case Programador:
+            	return conteo >= cantidadProgramadores;
+            case Tester:
+            	return conteo >= cantidadTesters;
+            default:
+            	return false;
         }
     }
 }

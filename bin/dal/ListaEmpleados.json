@@ -1,242 +1,242 @@
 [
   {
     "dni": "PL1001",
-    "Nombre": "Bill",
-    "Apellido": "Gates",
+    "Nombre": "Lionel",
+    "Apellido": "Messi",
     "Rol": "Lider",
     "Puntaje": 4,
-    "Foto": "src/tp/dal/images/gates.png"
+    "Foto": "agregar"
   },
   {
     "dni": "PL1002",
-    "Nombre": "Steve",
-    "Apellido": "Jobs",
+    "Nombre": "Cristiano",
+    "Apellido": "Ronaldo",
     "Rol": "Lider",
     "Puntaje": 3,
-    "Foto":"src/tp/dal/images/jobs.png"
+    "Foto":"agregar"
   },
   {
     "dni": "PL1003",
-    "Nombre": "Linus",
-    "Apellido": "Torvalds",
+    "Nombre": "Kylian",
+    "Apellido": "Mbappe",
     "Rol": "Lider",
     "Puntaje": 5,
-    "Foto":"src/tp/dal/images/torvalds.png"
+    "Foto":"agregar"
   },
   {
     "dni": "A1004",
-    "Nombre": "Alan",
-    "Apellido": "Turing",
+    "Nombre": "Julian",
+    "Apellido": "Alvarez",
     "Rol": "Arquitecto",
     "Puntaje": 3,
-    "Foto":"src/tp/dal/images/turing.png"
+    "Foto":"agregar"
   },
   {
     "dni": "A1005",
-    "Nombre": "Mark",
-    "Apellido": "Zuckerberg",
+    "Nombre": "Erling",
+    "Apellido": "Haaland",
     "Rol": "Arquitecto",
     "Puntaje": 2,
-    "Foto":"src/tp/dal/images/zuckerberg.png"
+    "Foto":"agregar"
   },
   {
     "dni": "A1006",
-    "Nombre": "Sergey",
-    "Apellido": "Brin",
+    "Nombre": "Vinicius",
+    "Apellido": "Junior",
     "Rol": "Arquitecto",
     "Puntaje": 4,
-    "Foto":"src/tp/dal/images/brin.png"
+    "Foto":"agregar"
   },
   {
     "dni": "A1007",
-    "Nombre": "Jeff",
-    "Apellido": "Bezos",
+    "Nombre": "Jude",
+    "Apellido": "Bellingham",
     "Rol": "Arquitecto",
     "Puntaje": 2,
-    "Foto":"src/tp/dal/images/bezos.png"
+    "Foto":"agregar"
   },
   {
     "dni": "A1008",
-    "Nombre": "Elon",
-    "Apellido": "Musk",
+    "Nombre": "Kevin",
+    "Apellido": "De Bruyne",
     "Rol": "Arquitecto",
     "Puntaje": 4,
-    "Foto":"src/tp/dal/images/musk.png"
+    "Foto":"agregar"
   },
   {
     "dni": "A1009",
-    "Nombre": "Satya",
-    "Apellido": "Nadella",
+    "Nombre": "Lautaro",
+    "Apellido": "Martinez",
     "Rol": "Arquitecto",
     "Puntaje": 5,
-    "Foto":"src/tp/dal/images/nadella.png"
+    "Foto":"agregar"
   },  
   {
     "dni": "T1010",
-    "Nombre": "Garry",
-    "Apellido": "Kasparov",
+    "Nombre": "Neymar",
+    "Apellido": "Junior",
     "Rol": "Tester",
     "Puntaje": 4,
-    "Foto":"src/tp/dal/images/kasparov.png"
+    "Foto":"agregar"
   },
   {
     "dni": "T1011",
-    "Nombre": "Anatoly",
-    "Apellido": "Karpov",
+    "Nombre": "Robert",
+    "Apellido": "Lewandowski",
     "Rol": "Tester",
     "Puntaje": 3,
-    "Foto":"src/tp/dal/images/karpov.png"
+    "Foto":"agregar"
   },
   {
     "dni": "T1012",
-    "Nombre": "Bobby",
-    "Apellido": "Fischer",
+    "Nombre": "Mohamed",
+    "Apellido": "Salah",
     "Rol": "Tester",
     "Puntaje": 4,
-    "Foto":"src/tp/dal/images/fischer.png"
+    "Foto":"agregar"
   },
   {
     "dni": "T1013",
-    "Nombre": "Magnus",
-    "Apellido": "Carlsen",
+    "Nombre": "Harry",
+    "Apellido": "Kane",
     "Rol": "Tester",
     "Puntaje": 3,
-    "Foto":"src/tp/dal/images/carlsen.png"
+    "Foto":"agregar"
   },
   {
     "dni": "T1014",
-    "Nombre": "Viswanathan",
-    "Apellido": "Anand",
+    "Nombre": "Antoine",
+    "Apellido": "Griezmann",
     "Rol": "Tester",
     "Puntaje": 4,
-    "Foto":"src/tp/dal/images/anand.png"
+    "Foto":"agregar"
   },
   {
     "dni": "T1015",
-    "Nombre": "Vladimir",
-    "Apellido": "Kramnik",
+    "Nombre": "Luka",
+    "Apellido": "Modric",
     "Rol": "Tester",
     "Puntaje": 3,
-    "Foto":"src/tp/dal/images/kamnik.png"
+    "Foto":"agregar"
   },
   {
     "dni": "T1016",
-    "Nombre": "Jose Raul",
-    "Apellido": "Capablanca",
+    "Nombre": "Toni",
+    "Apellido": "Kroos",
     "Rol": "Tester",
     "Puntaje": 3,
-    "Foto":"src/tp/dal/images/capablanca.png"
+    "Foto":"agregar"
   },
   {
     "dni": "T1017",
-    "Nombre": "Alexander",
-    "Apellido": "Alekhine",
+    "Nombre": "Pedri",
+    "Apellido": "Gonzalez",
     "Rol": "Tester",
     "Puntaje": 4,
-    "Foto":"src/tp/dal/images/alekhine.png"
+    "Foto":"agregar"
   },
   {
     "dni": "T1018",
-    "Nombre": "Boris",
-    "Apellido": "Spassky",
+    "Nombre": "Rodri",
+    "Apellido": "Hernandez",
     "Rol": "Tester",
     "Puntaje": 3,
-    "Foto":"src/tp/dal/images/spassky.png"
+    "Foto":"agregar"
   },
 {
   "dni": "T1019",
-  "Nombre": "Vassily",
-  "Apellido": "Ivanchuk",
+  "Nombre": "Federico",
+  "Apellido": "Valverde",
   "Rol": "Tester",
   "Puntaje": 3,
-  "Foto":"src/tp/dal/images/ivanchuk.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1020",
-  "Nombre": "Mikhail",
-  "Apellido": "Botwinnik",
+  "Nombre": "Alexis",
+  "Apellido": "Mac Allister",
   "Rol": "Programador",
   "Puntaje": 4,
-  "Foto":"src/tp/dal/images/botvinnik.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1021",
-  "Nombre": "Hiraku",
-  "Apellido": "Nakamura",
+  "Nombre": "Enzo",
+  "Apellido": "Fernandez",
   "Rol": "Programador",
   "Puntaje": 2,
-  "Foto":"src/tp/dal/images/nakamura.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1022",
-  "Nombre": "Anatoly",
-  "Apellido": "Lein",
+  "Nombre": "Paulo",
+  "Apellido": "Dybala",
   "Rol": "Programador",
   "Puntaje": 4,
-  "Foto":"src/tp/dal/images/lein.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1023",
-  "Nombre": "Nigel",
-  "Apellido": "Short",
+  "Nombre": "Angel",
+  "Apellido": "Di Maria",
   "Rol": "Programador",
   "Puntaje": 3,
-  "Foto":"src/tp/dal/images/short.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1024",
-  "Nombre": "Viktor",
-  "Apellido": "Korchnoi",
+  "Nombre": "Emiliano",
+  "Apellido": "Martinez",
   "Rol": "Programador",
   "Puntaje": 3,
-  "//Foto":"src/tp/dal/images/korchnoi.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1025",
-  "Nombre": "Fabiano",
-  "Apellido": "Caruana",
+  "Nombre": "Thiago",
+  "Apellido": "Almada",
   "Rol": "Programador",
   "Puntaje": 4,
-  "//Foto":"src/tp/dal/images/caruana.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1026",
-  "Nombre": "Judith",
-  "Apellido": "Polgar",
+  "Nombre": "Giuliano",
+  "Apellido": "Simeone",
   "Rol": "Programador",
   "Puntaje": 4,
-  "//Foto":"src/tp/dal/images/polgar.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1027",
-  "Nombre": "Alexander",
-  "Apellido": "Grischuk",
+  "Nombre": "Cole",
+  "Apellido": "Palmer",
   "Rol": "Programador",
   "Puntaje": 3,
-  "//Foto":"src/tp/dal/images/grischuk.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1028",
-  "Nombre": "Shakhiyar",
-  "Apellido": "Mamedyarov",
+  "Nombre": "Lamine",
+  "Apellido": "Yamal",
   "Rol": "Programador",
   "Puntaje": 4,
-  "//Foto":"src/tp/dal/images/mamedyarov.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1029",
-  "Nombre": "David",
-  "Apellido": "Bronstein",
+  "Nombre": "Bukayo",
+  "Apellido": "Saka",
   "Rol": "Programador",
   "Puntaje": 3,
-  "Foto":"src/tp/dal/images/bronstein.png"
+  "Foto":"agregar"
 },
 {
   "dni": "P1030",
-  "Nombre": "Alexei",
-  "Apellido": "Shirov",
+  "Nombre": "Florian",
+  "Apellido": "Wirtz",
   "Rol": "Programador",
   "Puntaje": 4,
-  "Foto":"src/tp/dal/images/shirov.png"
+  "Foto":"agregar"
 }
 ]

@@ -4,7 +4,6 @@ import java.util.Objects;
 import java.util.Set;
 
 public class Empleado {
-
     private String legajo;
     private String nombre;
     private String apellido;

@@ -3,9 +3,7 @@ package model;
 import java.util.List;
 
 public class FuerzaBruta extends Algoritmo {
-
-    public FuerzaBruta(List<Empleado> empleados, int cantidadLideres, int cantidadArquitectos,
-                       int cantidadProgramadores, int cantidadTesters) {
+    public FuerzaBruta(List<Empleado> empleados, int cantidadLideres, int cantidadArquitectos, int cantidadProgramadores, int cantidadTesters) {
         super(empleados, cantidadLideres, cantidadArquitectos, cantidadProgramadores, cantidadTesters);
     }
 

@@ -43,7 +43,6 @@ public class EquipoPresenter implements IObservadorEquipo {
     }
 
     // ── Carga inicial ──────────────────────────────────────────────────────────
-
     private void cargarEmpleadosIniciales() {
         for (Empleado e : gestor.getEmpleados()) {
             vista.agregarEmpleadoAlCombo(formatarEmpleado(e));
@@ -99,43 +98,50 @@ public class EquipoPresenter implements IObservadorEquipo {
     }
 
     public void onFuerzaBrutaPulsado() {
+    	vista.mostrarBarra();
         new Thread(() -> {
-            List<Empleado> resultado = gestor.generarEquipoPorFuerzaBruta(
-                    cantLideres, cantArquitectos, cantProgramadores, cantTesters);
+            List<Empleado> resultado = gestor.generarEquipoPorFuerzaBruta(cantLideres, cantArquitectos, cantProgramadores, cantTesters);
             javax.swing.SwingUtilities.invokeLater(() -> {
                 vista.actualizarTablaEquipo(resultado);
                 vista.actualizarStats(combinaciones, tiempoSeg, promedio);
+                vista.ocultarBarra();
             });
         }).start();
     }
 
     public void onRetrocesoPulsado() {
+    	vista.mostrarBarra();
         new Thread(() -> {
             List<Empleado> resultado = gestor.generarEquipoPorRetroceso(
                     cantLideres, cantArquitectos, cantProgramadores, cantTesters);
             javax.swing.SwingUtilities.invokeLater(() -> {
                 vista.actualizarTablaEquipo(resultado);
                 vista.actualizarStats(combinaciones, tiempoSeg, promedio);
+                vista.ocultarBarra();
             });
         }).start();
     }
 
     public void onHeuristicaPulsado() {
+    	vista.mostrarBarra();
         new Thread(() -> {
             List<Empleado> resultado = gestor.generarEquipoPorHeuristica(
-                    cantLideres, cantArquitectos, cantProgramadores, cantTesters);
+            		cantLideres, cantArquitectos, cantProgramadores, cantTesters);
             javax.swing.SwingUtilities.invokeLater(() -> {
                 vista.actualizarTablaEquipo(resultado);
                 vista.actualizarStats(combinaciones, tiempoSeg, promedio);
+                vista.ocultarBarra();
             });
         }).start();
     }
 
     public void onComparativaPulsado() {
+    	vista.mostrarBarra();
         new Thread(() -> {
             HashMap<String, Object[]> mapa = gestor.generarComparativa(
                     cantLideres, cantArquitectos, cantProgramadores, cantTesters);
             javax.swing.SwingUtilities.invokeLater(() -> navegador.lanzarComparativa(mapa));
+            vista.ocultarBarra();
         }).start();
     }
 

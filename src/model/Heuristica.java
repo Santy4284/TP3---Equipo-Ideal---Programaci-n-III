@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Heuristica extends Algoritmo {
-
+	
     private int lideresAgregados;
     private int arquitectosAgregados;
     private int programadoresAgregados;
@@ -47,20 +47,33 @@ public class Heuristica extends Algoritmo {
 
     private void incrementarConteoRol(Empleado.Rol rol) {
         switch (rol) {
-            case Lider:       lideresAgregados++;       break;
-            case Arquitecto:  arquitectosAgregados++;   break;
-            case Programador: programadoresAgregados++; break;
-            case Tester:      testersAgregados++;       break;
+            case Lider:
+            	lideresAgregados++;
+            	break;
+            case Arquitecto:
+            	arquitectosAgregados++;
+            	break;
+            case Programador:
+            	programadoresAgregados++;
+            	break;
+            case Tester:
+            	testersAgregados++;
+            	break;
         }
     }
 
     private boolean rolDisponible(Empleado empleado) {
         switch (empleado.getRol()) {
-            case Lider:       return lideresAgregados < cantidadLideres;
-            case Arquitecto:  return arquitectosAgregados < cantidadArquitectos;
-            case Programador: return programadoresAgregados < cantidadProgramadores;
-            case Tester:      return testersAgregados < cantidadTesters;
-            default:          return false;
+            case Lider:
+            	return lideresAgregados < cantidadLideres;
+            case Arquitecto:
+            	return arquitectosAgregados < cantidadArquitectos;
+            case Programador:
+            	return programadoresAgregados < cantidadProgramadores;
+            case Tester:
+            	return testersAgregados < cantidadTesters;
+            default:
+            	return false;
         }
     }
 

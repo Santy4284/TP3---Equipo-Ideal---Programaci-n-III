@@ -7,7 +7,6 @@ import java.util.List;
 import model.Empleado;
 
 public class PantallaComparativa {
-
     private JFrame frame;
     private JPanel panelContenido;
 
@@ -43,17 +42,15 @@ public class PantallaComparativa {
             String algoritmo = entrada.getKey();
             Object[] valores = entrada.getValue();
             @SuppressWarnings("unchecked")
-            List<Empleado> equipo  = (List<Empleado>) valores[0];
-            double combinaciones   = (double) valores[1];
-            long tiempo            = (long) valores[2];
-            double promedio        = (double) valores[3];
+            List<Empleado> equipo = (List<Empleado>) valores[0];
+            double combinaciones = (double) valores[1];
+            long tiempo = (long) valores[2];
+            double promedio = (double) valores[3];
 
             JPanel bloque = new JPanel();
             bloque.setLayout(new BoxLayout(bloque, BoxLayout.Y_AXIS));
             bloque.setBackground(new Color(50, 50, 80));
-            bloque.setBorder(BorderFactory.createCompoundBorder(
-                    BorderFactory.createLineBorder(Color.CYAN, 1),
-                    BorderFactory.createEmptyBorder(10, 20, 10, 20)));
+            bloque.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createLineBorder(Color.CYAN, 1), BorderFactory.createEmptyBorder(10, 20, 10, 20)));
             bloque.setAlignmentX(Component.CENTER_ALIGNMENT);
             bloque.setMaximumSize(new Dimension(840, 999));
 
@@ -62,10 +59,9 @@ public class PantallaComparativa {
             bloque.add(crearLinea(String.format("Tiempo de ejecucion: %d ms", tiempo), 13, Color.WHITE));
             bloque.add(crearLinea(String.format("Puntaje promedio del equipo: %.2f", promedio), 13, Color.WHITE));
             bloque.add(Box.createVerticalStrut(6));
-            for (Empleado e : equipo) {
-                bloque.add(crearLinea("  • " + e.getNombre() + " " + e.getApellido()
-                        + " | Rol: " + e.getRol() + " | Puntaje: " + e.getPuntaje(), 12, Color.LIGHT_GRAY));
-            }
+            
+            for (Empleado e : equipo)
+                bloque.add(crearLinea("  • " + e.getNombre() + " " + e.getApellido() + " | Rol: " + e.getRol() + " | Puntaje: " + e.getPuntaje(), 12, Color.LIGHT_GRAY));
 
             panelContenido.add(Box.createVerticalStrut(10));
             panelContenido.add(bloque);

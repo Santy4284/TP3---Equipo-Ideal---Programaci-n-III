@@ -25,11 +25,11 @@ public class BackTrackingTest {
 	@Before
 	public void setUp() {
 		empleados = new ArrayList<>();
-		empleados.add(new Empleado("1", "Linus", "Torvalds", 5, new HashSet<>(), Rol.Lider, "photo1.jpg"));
-		empleados.add(new Empleado("2", "Elon", "Musk", 4, new HashSet<>(), Rol.Arquitecto, "photo2.jpg"));
-		empleados.add(new Empleado("3", "Raul", "Capablanca", 3, new HashSet<>(), Rol.Programador, "photo3.jpg"));
-		empleados.add(new Empleado("4", "Magnus", "Carlsen", 2, new HashSet<>(), Rol.Tester, "photo4.jpg"));
-		empleados.add(new Empleado("5", "Judith", "Polgar", 2, new HashSet<>(Arrays.asList("0", "1", "2")), Rol.Tester,"photo4.jpg"));
+		empleados.add(new Empleado("1", "Kylian", "Mbappe", 5, new HashSet<>(), Rol.Lider, "photo1.jpg"));
+		empleados.add(new Empleado("2", "Kevin", "De Bruyne", 4, new HashSet<>(), Rol.Arquitecto, "photo2.jpg"));
+		empleados.add(new Empleado("3", "Toni", "Kroos", 3, new HashSet<>(), Rol.Programador, "photo3.jpg"));
+		empleados.add(new Empleado("4", "Harry", "Kane", 2, new HashSet<>(), Rol.Tester, "photo4.jpg"));
+		empleados.add(new Empleado("5", "Giuliano", "Simeone", 2, new HashSet<>(Arrays.asList("0", "1", "2")), Rol.Tester,"photo4.jpg"));
 		backTracking = new BackTracking(empleados, 1, 1, 1, 1);
 	}
 

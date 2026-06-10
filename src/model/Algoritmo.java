@@ -26,7 +26,7 @@ public abstract class Algoritmo {
         this.cantidadCombinaciones = 0;
         this.tiempoEjecucion = 0;
     }
-
+    
     public List<Empleado> encontrarMejorCombinacion() {
         long inicio = System.currentTimeMillis();
         List<Empleado> combinacion = new ArrayList<>();
@@ -66,10 +66,18 @@ public abstract class Algoritmo {
         int lideres = 0, arquitectos = 0, programadores = 0, testers = 0;
         for (Empleado e : combinacion) {
             switch (e.getRol()) {
-                case Lider:       lideres++;       break;
-                case Arquitecto:  arquitectos++;   break;
-                case Programador: programadores++; break;
-                case Tester:      testers++;       break;
+                case Lider:
+                	lideres++;
+                	break;
+                case Arquitecto:
+                	arquitectos++;
+                	break;
+                case Programador:
+                	programadores++;
+                	break;
+                case Tester:
+                	testers++;
+                	break;
             }
         }
         return lideres == cantidadLideres
