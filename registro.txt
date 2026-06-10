@@ -455,3 +455,167 @@ Combinaciones evaluadas: 1.36663062E8
 Tiempo de proceso: 4153ms
 
 -------------------------------------------------------------------
+equipo_lider_Messi_2026-06-10_17-02-17
+Equipo generado: 2 arquitectos, 2 programadors, 2 testers, 2 liders
+Combinaciones evaluadas: 1309161.0
+Tiempo de proceso: 61ms
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Vinicius', apellido='Junior', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Neymar', apellido='Junior', puntaje=4, rol=Tester}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Messi_2026-06-10_17-02-19
+Equipo generado: 2 arquitectos, 2 programadors, 2 testers, 2 liders
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Antoine', apellido='Griezmann', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Kevin', apellido='De Bruyne', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Messi_2026-06-10_17-02-59
+Equipo generado: 2 arquitectos, 2 programadors, 2 testers, 2 liders
+Combinaciones evaluadas: 1.073741824E9
+Tiempo de proceso: 39397ms
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Vinicius', apellido='Junior', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Neymar', apellido='Junior', puntaje=4, rol=Tester}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Mbappe_2026-06-10_17-03-58
+Equipo generado: 2 arquitectos, 2 programadors, 2 testers, 2 liders
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Antoine', apellido='Griezmann', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='A1008', nombre='Kevin', apellido='De Bruyne', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Messi_2026-06-10_17-04-06
+Equipo generado: 2 arquitectos, 2 programadors, 2 testers, 2 liders
+Combinaciones evaluadas: 1193589.0
+Tiempo de proceso: 69ms
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Vinicius', apellido='Junior', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Neymar', apellido='Junior', puntaje=4, rol=Tester}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Mbappe_2026-06-10_17-06-17
+Equipo generado: 1 programadors, 1 liders, 1 arquitectos, 1 testers
+Combinaciones evaluadas: 21805.0
+Tiempo de proceso: 4ms
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Neymar', apellido='Junior', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Messi_2026-06-10_17-10-56
+Equipo generado: 2 testers, 2 programadors, 2 liders, 2 arquitectos
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Antoine', apellido='Griezmann', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Kevin', apellido='De Bruyne', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Messi_2026-06-10_17-10-58
+Equipo generado: 2 testers, 2 programadors, 2 liders, 2 arquitectos
+Combinaciones evaluadas: 1309161.0
+Tiempo de proceso: 59ms
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Vinicius', apellido='Junior', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Neymar', apellido='Junior', puntaje=4, rol=Tester}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Messi_2026-06-10_17-14-38
+Equipo generado: 2 testers, 2 programadors, 2 liders, 2 arquitectos
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Antoine', apellido='Griezmann', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Kevin', apellido='De Bruyne', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Messi_2026-06-10_17-14-41
+Equipo generado: 2 testers, 2 programadors, 2 liders, 2 arquitectos
+Combinaciones evaluadas: 1309161.0
+Tiempo de proceso: 57ms
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Vinicius', apellido='Junior', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Neymar', apellido='Junior', puntaje=4, rol=Tester}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Messi_2026-06-10_17-15-39
+Equipo generado: 2 testers, 2 programadors, 2 liders, 2 arquitectos
+Combinaciones evaluadas: 1309161.0
+Tiempo de proceso: 28ms
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Vinicius', apellido='Junior', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Neymar', apellido='Junior', puntaje=4, rol=Tester}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------
+equipo_lider_Messi_2026-06-10_17-15-40
+Equipo generado: 2 testers, 2 programadors, 2 liders, 2 arquitectos
+Combinaciones evaluadas: 1.0
+Tiempo de proceso: 0ms
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Antoine', apellido='Griezmann', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Kevin', apellido='De Bruyne', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------------

@@ -3,7 +3,6 @@ package view.presenter;
 import model.Empleado;
 import model.Empleado.Rol;
 import model.GestorEquipo;
-import model.IObservadorEquipo;
 import view.navegador.Navegador;
 import view2.PantallaEquipo;
 
@@ -11,6 +10,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+
+import dal.IObservadorEquipo;
 
 public class EquipoPresenter implements IObservadorEquipo {
 

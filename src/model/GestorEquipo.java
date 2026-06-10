@@ -5,6 +5,8 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 
+import dal.IObservadorEquipo;
+
 public class GestorEquipo {
 
     private static GestorEquipo instancia;
@@ -65,22 +67,19 @@ public class GestorEquipo {
     // ── Observadores ──────────────────────────────────────────────────────────
 
     public void agregarObservador(IObservadorEquipo obs) {
-        if (observadores == null) observadores = new ArrayList<>();
         observadores.add(obs);
     }
 
     public void quitarObservador(IObservadorEquipo obs) {
-        if (observadores != null) observadores.remove(obs);
+        observadores.remove(obs);
     }
 
     private void notificarEquipoGenerado(List<Empleado> equipo, double combinaciones, long tiempo) {
-        if (observadores != null)
-            observadores.forEach(o -> o.onEquipoGenerado(equipo, combinaciones, tiempo));
+        observadores.forEach(o -> o.onEquipoGenerado(equipo, combinaciones, tiempo));
     }
 
     private void notificarComparativaGenerada(HashMap<String, Object[]> mapa) {
-        if (observadores != null)
-            observadores.forEach(o -> o.onComparativaGenerada(mapa));
+        observadores.forEach(o -> o.onComparativaGenerada(mapa));
     }
 
     // ── Acceso a datos ────────────────────────────────────────────────────────
@@ -91,14 +90,11 @@ public class GestorEquipo {
                 .findFirst().orElse(null);
     }
 
-    @SuppressWarnings("unchecked")
     public List<Empleado> getEmpleados() {
-        if (empleados == null) return new ArrayList<>();
-        return (List<Empleado>) ((ArrayList<Empleado>) empleados).clone();
+        return new ArrayList<>(empleados);
     }
 
     public void agregarEmpleado(Empleado empleado) {
-        if (empleados == null) empleados = new ArrayList<>();
         empleados.add(empleado);
     }
 

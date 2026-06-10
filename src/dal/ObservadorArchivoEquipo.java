@@ -1,7 +1,6 @@
 package dal;
 
 import model.Empleado;
-import model.IObservadorEquipo;
 
 import java.util.HashMap;
 import java.util.List;

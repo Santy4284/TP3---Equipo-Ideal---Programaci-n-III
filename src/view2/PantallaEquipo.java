@@ -48,7 +48,7 @@ public class PantallaEquipo {
         fondoLabel.setBounds(0, 0, 800, 800);
 
         // ── Sección: Datos de nuevo empleado ──────────────────────────────────
-        JLabel lblNuevoEmp = crearEtiqueta("DATOS DEL NUEVO EMPLEADO", 18, 70, 11, 300, 45);
+        JLabel lblNuevoEmp = crearEtiqueta("GESTOR DE EMPLEADOS", 18, 70, 11, 300, 45);
         JLabel lblLeg = crearEtiqueta("Legajo", 14, 47, 67, 99, 29);
         JLabel lblNom = crearEtiqueta("Nombre", 14, 47, 107, 99, 29);
         JLabel lblApe = crearEtiqueta("Apellido", 14, 47, 147, 99, 29);
@@ -71,7 +71,7 @@ public class PantallaEquipo {
         });
 
         // ── Sección: Conflictos ───────────────────────────────────────────────
-        JLabel lblConflictos = crearEtiqueta("CONFLICTOS", 18, 580, 11, 200, 45);
+        JLabel lblConflictos = crearEtiqueta("GESTOR DE CONFLICTOS", 18, 580, 11, 300, 45);
         comboConflicto1 = new JComboBox<>();
         comboConflicto1.setBounds(470, 70, 175, 22);
         comboConflicto2 = new JComboBox<>();
@@ -118,7 +118,7 @@ public class PantallaEquipo {
         btnFuerzaBruta.setBounds(17, 700, 130, 40);
         btnFuerzaBruta.addActionListener(e -> { if (presenter != null) presenter.onFuerzaBrutaPulsado(); });
 
-        JButton btnRetroceso = new JButton("Retroceso Progresivo");
+        JButton btnRetroceso = new JButton("BackTracking");
         btnRetroceso.setBounds(165, 700, 160, 40);
         btnRetroceso.addActionListener(e -> { if (presenter != null) presenter.onRetrocesoPulsado(); });
 
