@@ -25,14 +25,15 @@ public class BackTrackingTest {
 	@Before
 	public void setUp() {
 		empleados = new ArrayList<>();
-		empleados.add(new Empleado("1", "Kylian", "Mbappe", 5, new HashSet<>(), Rol.Lider, "photo1.jpg"));
-		empleados.add(new Empleado("2", "Kevin", "De Bruyne", 4, new HashSet<>(), Rol.Arquitecto, "photo2.jpg"));
-		empleados.add(new Empleado("3", "Toni", "Kroos", 3, new HashSet<>(), Rol.Programador, "photo3.jpg"));
-		empleados.add(new Empleado("4", "Harry", "Kane", 2, new HashSet<>(), Rol.Tester, "photo4.jpg"));
-		empleados.add(new Empleado("5", "Giuliano", "Simeone", 2, new HashSet<>(Arrays.asList("0", "1", "2")), Rol.Tester,"photo4.jpg"));
+		empleados.add(new Empleado("1", "Kylian", "Mbappe", 5, new HashSet<>(), Rol.Lider, "agregar"));
+		empleados.add(new Empleado("2", "Kevin", "De Bruyne", 4, new HashSet<>(), Rol.Arquitecto, "agregar"));
+		empleados.add(new Empleado("3", "Toni", "Kroos", 3, new HashSet<>(), Rol.Programador, "agregar"));
+		empleados.add(new Empleado("4", "Harry", "Kane", 2, new HashSet<>(), Rol.Tester, "agregar"));
+		empleados.add(new Empleado("5", "Giuliano", "Simeone", 2, new HashSet<>(Arrays.asList("0", "1", "2")), Rol.Tester,"agregar"));
 		backTracking = new BackTracking(empleados, 1, 1, 1, 1);
 	}
 
+	// Verifica que el algoritmo encuentre una cambinacion valida y no vacia
 	@Test
 	public void econtrarMejorCombinacionTest() {
 		List<Empleado> bestCombination = backTracking.encontrarMejorCombinacion();
@@ -40,14 +41,34 @@ public class BackTrackingTest {
 		assertFalse(bestCombination.isEmpty());
 		assertTrue(backTracking.esCombinacionValida(bestCombination));
 	}
+	
+	// Verifica que la mejor combinacion encontrada tenga el promedio esperado
+		@Test
+		public void mejorConvinacionDeMayorPromedio() {
+			List<Empleado> 	mejor = backTracking.encontrarMejorCombinacion();
+			double promedio = 0;
+			for(Empleado e: mejor)
+				promedio += e.getPuntaje();
+			promedio /= mejor.size();
+			Assert.assertEquals(3.5, promedio, 0.01);
+		}
 
+	// Verifica que se generaron todas las conbinaciones posibles
 	@Test
 	public void generarCombinacionTest() {
 		List<Empleado> combinaciones = new ArrayList<>();
 		backTracking.generarCombinacion(combinaciones, 0);
 		Assert.assertEquals(54, backTracking.getCantidadCombinaciones(), 0);
 	}
+	
+	// Verifica que le tiempo de ejecucion sea correcto
+	@Test
+	public void tiempoDeEjecucionDebeSerMayorOIgualACeroTest() {
+		backTracking.encontrarMejorCombinacion();
+		assertTrue(backTracking.getTiempoEjecucion() >= 0);
+	}
 
+	// Verifica cuando un empleado entra en conflicto con la combinacion actual
 	@Test
 	public void combinacionTieneConflictoConEmpleadosTest() {
 		List<Empleado> combinaciones = new ArrayList<>();
@@ -59,7 +80,8 @@ public class BackTrackingTest {
 		boolean contieneConflictos = backTracking.combinacionContieneConflicto(combinaciones, empleados.get(0));
 		Assert.assertTrue(contieneConflictos);
 	}
-
+	
+	// Verifica que una combinacion sea valida
 	@Test
 	public void evaluarCombinacionValidaTest() {
 		List<Empleado> combiValida = new ArrayList<>();
@@ -71,6 +93,7 @@ public class BackTrackingTest {
 		Assert.assertTrue(backTracking.esCombinacionValida(combiValida));
 	}
 
+	// Verifica que una combinacion incorrecta sea invalida
 	@Test
 	public void evaluarCombinacionInvalidaTest() {
 		List<Empleado> combiInvalida = new ArrayList<>();

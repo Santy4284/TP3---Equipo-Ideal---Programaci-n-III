@@ -9,6 +9,7 @@ import model.Empleado.Rol;
 import model.GestorEquipo;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -42,7 +43,19 @@ public class GestorEquipoTest {
         cantidadProgramadores = 1;
         cantidadTesters = 1;
     }
+    
+ // Verifica que la comparativa contenga los tres algoritmos
+    @Test
+    public void generarComparativaTest() {
+        HashMap<String, Object[]> comparativa = gestorEquipo.generarComparativa(cantidadLideres, cantidadArquitectos, cantidadProgramadores, cantidadTesters);
+        Assert.assertNotNull(comparativa);
+        Assert.assertEquals(3, comparativa.size());
+        Assert.assertTrue(comparativa.containsKey("Fuerza Bruta"));
+        Assert.assertTrue(comparativa.containsKey("Retroceso Progresivo"));
+        Assert.assertTrue(comparativa.containsKey("Heuristica"));
+    }
 
+    // Verifica que Fuerza Bruta genere un equipo con la cantidad correcta de roles
     @Test
     public void generarEquipoPorFuerzaBrutaTest() {
         List<Empleado> equipo = gestorEquipo.generarEquipoPorFuerzaBruta(cantidadLideres, cantidadArquitectos, cantidadProgramadores, cantidadTesters);
@@ -53,8 +66,9 @@ public class GestorEquipoTest {
         Assert.assertEquals(cantidadTesters, contarPorRol(equipo, Rol.Tester));
     }
 
+    // Verifica que BackTracking genere un equipo con la cantidad correcta de roles
     @Test
-    public void generarEquipoPorRetrocesoTest() {
+    public void generarEquipoPorBackTrackingTest() {
         List<Empleado> equipo = gestorEquipo.generarEquipoPorRetroceso(cantidadLideres, cantidadArquitectos, cantidadProgramadores, cantidadTesters);
         Assert.assertNotNull(equipo);
         Assert.assertEquals(cantidadLideres, contarPorRol(equipo, Rol.Lider));
@@ -63,6 +77,7 @@ public class GestorEquipoTest {
         Assert.assertEquals(cantidadTesters, contarPorRol(equipo, Rol.Tester));
     }
 
+    // Verifica que Heuristica genere un equipo con la cantidad correcta de roles
     @Test
     public void generarEquipoPorHeuristicaTest() {
         List<Empleado> equipo = gestorEquipo.generarEquipoPorHeuristica(cantidadLideres, cantidadArquitectos, cantidadProgramadores, cantidadTesters);
@@ -73,6 +88,15 @@ public class GestorEquipoTest {
         Assert.assertEquals(cantidadTesters, contarPorRol(equipo, Rol.Tester));
     }
 
+    // Verifica que buscarPorLegajo retorne null cuando no hay empleados cargados
+    @Test
+    public void buscarPorLegajoListaVaciaTest() {
+        gestorEquipo.setEmpleados(new ArrayList<>());
+        Empleado encontrado = gestorEquipo.buscarPorLegajo("1111");
+        Assert.assertNull(encontrado);
+    }
+    
+    // Verifica la busqueda de empleados por legajo
     @Test
     public void buscarPorLegajoTest() {
         Empleado encontrado = gestorEquipo.buscarPorLegajo("1111");
@@ -83,7 +107,8 @@ public class GestorEquipoTest {
         Empleado noEncontrado = gestorEquipo.buscarPorLegajo("11112222");
         Assert.assertNull(noEncontrado);
     }
-
+    
+    // Verifica que se obtiene correctamente la lista de empleados
     @Test
     public void getEmpleadosTest() {
         List<Empleado> empleados = gestorEquipo.getEmpleados();
@@ -93,11 +118,22 @@ public class GestorEquipoTest {
         Assert.assertEquals("B", empleados.get(1).getNombre());
     }
 
+    // Verifica que un empleado se agregue correctamente al gestor
     @Test
     public void agregarEmpleadoTest() {
         Empleado nuevoEmpleado = new Empleado("9999", "I", "I", 3, new HashSet<>(), Rol.Programador, null);
         gestorEquipo.agregarEmpleado(nuevoEmpleado);
         Assert.assertTrue(gestorEquipo.getEmpleados().contains(nuevoEmpleado));
+    }
+    
+ // Verifica que setEmpleados reemplace correctamente la lista actual
+    @Test
+    public void setEmpleadosTest() {
+        List<Empleado> nuevaLista = new ArrayList<>();
+        nuevaLista.add(new Empleado("9999",  "Nuevo", "Empleado", 5, new HashSet<>(), Rol.Lider, null));
+        gestorEquipo.setEmpleados(nuevaLista);
+        Assert.assertEquals(1, gestorEquipo.getEmpleados().size());
+        Assert.assertEquals("9999", gestorEquipo.getEmpleados().get(0).getLegajo());
     }
 
     private int contarPorRol(List<Empleado> empleados, Rol rol) {
