@@ -1,0 +1,45 @@
+Algoritmo: Backtracking
+Combinaciones generadas: 1309161.0
+Tiempo de proceso: 27ms
+Puntaje promedio: 4.25
+Composicion del equipo: 2 programadors, 2 testers, 2 arquitectos, 2 liders
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Vinicius', apellido='Junior', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Neymar', apellido='Junior', puntaje=4, rol=Tester}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------
+Algoritmo: Heuristica
+Combinaciones generadas: 1.0
+Tiempo de proceso: 0ms
+Puntaje promedio: 4.25
+Composicion del equipo: 2 programadors, 2 testers, 2 arquitectos, 2 liders
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='T1014', nombre='Antoine', apellido='Griezmann', puntaje=4, rol=Tester}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+Empleado{legajo='A1008', nombre='Kevin', apellido='De Bruyne', puntaje=4, rol=Arquitecto}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------
+Algoritmo: Fuerza Bruta
+Combinaciones generadas: 1.073741824E9
+Tiempo de proceso: 36003ms
+Puntaje promedio: 4.25
+Composicion del equipo: 2 programadors, 2 testers, 2 arquitectos, 2 liders
+Empleado{legajo='PL1001', nombre='Lionel', apellido='Messi', puntaje=4, rol=Lider}
+Empleado{legajo='PL1003', nombre='Kylian', apellido='Mbappe', puntaje=5, rol=Lider}
+Empleado{legajo='A1006', nombre='Vinicius', apellido='Junior', puntaje=4, rol=Arquitecto}
+Empleado{legajo='A1009', nombre='Lautaro', apellido='Martinez', puntaje=5, rol=Arquitecto}
+Empleado{legajo='T1010', nombre='Neymar', apellido='Junior', puntaje=4, rol=Tester}
+Empleado{legajo='T1012', nombre='Mohamed', apellido='Salah', puntaje=4, rol=Tester}
+Empleado{legajo='P1022', nombre='Paulo', apellido='Dybala', puntaje=4, rol=Programador}
+Empleado{legajo='P1026', nombre='Giuliano', apellido='Simeone', puntaje=4, rol=Programador}
+
+-------------------------------------------------------------

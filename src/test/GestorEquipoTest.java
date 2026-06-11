@@ -51,7 +51,7 @@ public class GestorEquipoTest {
         Assert.assertNotNull(comparativa);
         Assert.assertEquals(3, comparativa.size());
         Assert.assertTrue(comparativa.containsKey("Fuerza Bruta"));
-        Assert.assertTrue(comparativa.containsKey("Retroceso Progresivo"));
+        Assert.assertTrue(comparativa.containsKey("Backtracking"));
         Assert.assertTrue(comparativa.containsKey("Heuristica"));
     }
 

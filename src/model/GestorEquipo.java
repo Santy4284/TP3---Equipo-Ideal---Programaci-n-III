@@ -53,7 +53,7 @@ public class GestorEquipo {
         mapa.put("Fuerza Bruta", new Object[]{ fb.encontrarMejorCombinacion(), fb.getCantidadCombinaciones(), fb.getTiempoEjecucion(), fb.getMejorPuntajePromedio() });
 
         BackTracking rp = new BackTracking(_empleados, lideres, arquitectos, programadores, testers);
-        mapa.put("Retroceso Progresivo", new Object[]{ rp.encontrarMejorCombinacion(), rp.getCantidadCombinaciones(), rp.getTiempoEjecucion(), rp.getMejorPuntajePromedio() });
+        mapa.put("Backtracking", new Object[]{ rp.encontrarMejorCombinacion(), rp.getCantidadCombinaciones(), rp.getTiempoEjecucion(), rp.getMejorPuntajePromedio() });
 
         Heuristica h = new Heuristica(_empleados, lideres, arquitectos, programadores, testers, comp);
         mapa.put("Heuristica", new Object[]{ h.encontrarMejorCombinacion(), h.getCantidadCombinaciones(), h.getTiempoEjecucion(), h.getMejorPuntajePromedio() });

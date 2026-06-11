@@ -16,5 +16,15 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Usuario/Desktop/TP3---Equipo-Ideal---Programaci-n-III-main (1)/TP3---Equipo-Ideal---Programaci-n-III-main/jfreechart-1.0.14.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Usuario/Desktop/TP3---Equipo-Ideal---Programaci-n-III-main (1)/TP3---Equipo-Ideal---Programaci-n-III-main/jcommon-1.0.17.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

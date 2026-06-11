@@ -103,9 +103,9 @@ public class PantallaEquipo {
 
         lblCombinaciones = crearEtiqueta("", 14, 450, 400, 300, 22);
         lblCombinaciones.setHorizontalAlignment(SwingConstants.CENTER);
-        lblTiempo = crearEtiqueta("", 14, 284, 735, 452, 22);
+        lblTiempo = crearEtiqueta("", 14, 230, 735, 452, 22);
         lblTiempo.setHorizontalAlignment(SwingConstants.CENTER);
-        lblPromedio = crearEtiqueta("", 14, 284, 755, 452, 22);
+        lblPromedio = crearEtiqueta("", 14, 230, 755, 452, 22);
         lblPromedio.setHorizontalAlignment(SwingConstants.CENTER);
         
         barra = new JProgressBar();

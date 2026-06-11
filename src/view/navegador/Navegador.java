@@ -38,9 +38,10 @@ public class Navegador {
     }
 
     public void lanzarComparativa(HashMap<String, Object[]> mapa) {
-        PantallaComparativa vista = new PantallaComparativa();
-        vista.mostrarComparativa(mapa);
-        configurarVentana(vista.getFrame());
+        PantallaComparativa vista = new PantallaComparativa(mapa);
+        vista.setVisible(true);
+        vista.setResizable(false);
+        vista.setLocationRelativeTo(null);
     }
 
     private void configurarVentana(JFrame frame) {
